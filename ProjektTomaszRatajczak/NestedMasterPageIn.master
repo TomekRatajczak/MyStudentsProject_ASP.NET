@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="NestedMasterPageIn.master.cs" Inherits="ProjektTomaszRatajczak.NestedMasterPage2" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link href="styleForSite1Master.css" rel="stylesheet" />
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <div class="included">
+        <div class="sidebar">
+            <ul class="side">
+                <li class="left-menu-name">Witaj Tomasz!</li>
+                <li class="left-menu-time">Jesteś zalogowany od: 2 min</li>
+            </ul>
+            <a href="CourseLogOut.aspx"><div class="button-alt">Wyloguj</div></a>
+            <ul class="left-menu side">
+                <li><a class="left-menu-item" href="CourseLessonHTML1.aspx">HTML - Lekcja 1</a></li>
+                <li><a class="left-menu-item" href="CourseLessonHTML2.aspx">HTML - Lekcja 2</a></li>
+                <li><a class="left-menu-item" href="CourseLessonHTML3.aspx">HTML - Lekcja 3</a></li>
+                <li><a class="left-menu-item" href="CourseLessonHTML4.aspx">HTML - Lekcja 4</a></li>
+                <li><a class="left-menu-item" href="CourseLessonHTML5.aspx">HTML - Lekcja 5</a></li>
+            </ul> 
+        </div>
+        <div class="main-included">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"> 
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+</asp:Content>

@@ -1,0 +1,153 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+/*Global*/
+h3 {
+    color: #ffbf00;
+}
+.navigation-link{
+    text-decoration: none;
+}
+.navigation-link:hover {
+    color: #ffbf00;
+    cursor: pointer;
+}
+/*Header*/
+.header-container {
+    background-color: #147cb9;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-logo-sm {
+    margin-left: 2px;
+    height: 56px;
+    width: auto;
+}
+
+.header-navigation-list {
+    margin: 0 10px 0 0;
+    text-align: right;
+}
+.header-navigation-item {
+    display: inline;
+    margin: 0 10px;
+}
+/*Footer*/
+.footer-container {
+    padding: 50px 0;
+    background-color: #147cb9;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-left{
+    padding: 0 25px;
+}
+.footer-middle {
+    padding: 0 25px;
+}
+.footer-right {
+    width:30%;
+    padding: 0 25px;
+}
+
+.footer-list {
+    padding-left: 0;
+}
+.footer-list-item {
+    list-style-type: none;
+    margin-bottom: 3px;
+}
+
+.footer-navigation-list {
+    padding-left: 0;
+}
+.footer-navigation-item {
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    list-style-type: none;
+}
+
+.img-logo {
+    height: auto;
+    width: 100%;
+}
+.footer-socials {
+    display: flex;
+    justify-content: space-between;
+}
+.navigation-link-socials{
+    width: 40%;
+    display: inline;
+}
+.navigation-link-socials:hover {
+    cursor: pointer;
+}
+.img-socials{
+    width: 75%;
+}
+
+.footer-copyrith {
+    background-color: #000;
+    text-align: center;
+    padding: 10px;
+}
+.footer-copyrith-text {
+    margin: 0;
+    font-size: 0.8rem;
+    color: #fff;
+}
+
+/*COURSES*/
+.included{
+    display: flex;
+}
+.sidebar {
+    width: 20%;
+    min-height: 100vh;
+    color: #fff;
+    background-color: #808080;
+    padding: 20px 40px;
+}
+.side{
+    padding-left: 0;
+}
+.side > li{
+    list-style-type: none;
+}
+.left-menu-name{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.left-menu-time {
+    font-weight: 600;
+}
+.left-menu{
+    margin-top: 50px;
+    text-align: center;
+}
+.left-menu-item {
+    display: block;
+    padding: 12px;
+    border: 2px solid #fff;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.left-menu-item:hover {
+    background-color: #606060;
+    cursor: pointer;
+}
+
+.main-included {
+    width: 80%;
+    min-height: 100vh;
+    padding: 20px 40px;
+}
